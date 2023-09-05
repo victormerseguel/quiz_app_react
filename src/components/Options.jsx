@@ -12,6 +12,12 @@ const Options = ({ option, selectOption, answer, hide }) => {
         quizState.answerSelected && option === answer ? "correct" : ""
       } ${quizState.answerSelected && option !== answer ? "wrong" : ""}
       ${hide ? "hide" : ""}
+      ${
+        quizState.answerSelected === option &&
+        quizState.answerSelected !== answer
+          ? "wrong-selected"
+          : ""
+      }
         `}
       onClick={() => selectOption()}
     >

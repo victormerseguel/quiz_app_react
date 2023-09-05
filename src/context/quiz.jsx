@@ -1,5 +1,5 @@
 import { createContext, useReducer } from "react";
-import questions from "../data/questions_complete";
+import questions from "../data/new_questions";
 
 const STAGES = ["Start", "Category", "Playing", "End"];
 
@@ -40,6 +40,13 @@ const quizReducer = (state, action) => {
       const reorderedQuestions = state.questions.sort(() => {
         return Math.random() - 0.5;
       });
+
+      reorderedQuestions.map((option) => {
+        option.options.sort(() => {
+          return Math.random() - 0.5;
+        });
+      });
+
       return {
         ...state,
         questions: reorderedQuestions,
@@ -71,6 +78,8 @@ const quizReducer = (state, action) => {
       let correctAnswer = 0;
 
       if (answer === option) correctAnswer = 1;
+
+      console.log(option);
 
       return {
         ...state,
