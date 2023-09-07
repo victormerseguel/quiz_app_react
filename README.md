@@ -25,7 +25,7 @@ Possibilidades de incrementos e melhorias:
 - implementar o sistema de aleatoriedade para a exibição das opções; - ok
 - limitar a quantidade de ajudas que o usuário pode ter ao longo do jogo;
 - adicionar mostrador de ajudas restantes;
-- formatação condicional para a resposta errada selecionada;
+- formatação condicional para a resposta errada selecionada; - ok
 - criar uma nova forma de pontuação;
 - criar uma classificação final de acordo com a pontuação, com mensagens coerentes com cada nível;
 - criar uma lógica que mostra qual opção foi removida, mas excluindo ela da lógica de escolha, impedindo que seja selecionada mas ao mesmo tempo deixando-a visível;
