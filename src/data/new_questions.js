@@ -11,12 +11,6 @@ const data = [
       {
         question: "Qual atributo adiciona um link para a tag a?",
         options: ["alt", "href", "src", "link"],
-        options: [
-          'document.getElementById("demo").innerHTML = "Hello World!”;',
-          '#demo.innerHTML = "Hello World!”;',
-          'document.getElement("p").innerHTML = "Hello World!”;',
-          'document.getElementByName("p").innerHTML = "Hello World!”;',
-        ],
         answer: "href",
         tip: "Hyperlink Reference",
       },
@@ -34,6 +28,300 @@ const data = [
         question: "A tag semântica indicada para rodapés é a:",
         options: ["div", "main", "section", "footer"],
         answer: "footer",
+      },
+      {
+        question: "O que significa HTML?",
+        options: [
+          "Hyper Text Markup Language",
+          "Home Tool Markup Language",
+          "Hyperlinks and Text Markup Language",
+        ],
+        answer: "Hyper Text Markup Language",
+      },
+      {
+        question: "Quem faz os padrõe da Web?",
+        options: [
+          "The World Wide Web Consortium",
+          "Mozilla",
+          "Microsoft",
+          "Google",
+        ],
+        answer: "The World Wide Web Consortium",
+      },
+      {
+        question: "Escolha o elemento HTML correto para para o maior título:",
+        options: ["<head>", "<heading>", "<h6>", "<h1>"],
+        answer: "<h1>",
+      },
+      {
+        question:
+          "Qual é o elemento HTML correto para inserir uma quebra de linha?",
+        options: ["<br>", "<lb>", "<break>"],
+        answer: "<br>",
+      },
+      {
+        question: "Qual é o HTML correto para adicionar uma cor de fundo?",
+        options: [
+          '<body style="background-color:yellow;">',
+          "<background>yellow</background>",
+          '<body bg="yellow">',
+        ],
+        answer: '<body style="background-color:yellow;">',
+      },
+      {
+        question:
+          "Escolha o elemento HTML correto para definir um texto importante",
+        options: ["<strong>", "<important>", "<i>", "<b>"],
+        answer: "<strong>",
+      },
+      {
+        question:
+          "Escolha o elemento HTML correto para definir um texto enfatizado",
+        options: ["<em>", "<i>", "<italic>"],
+        answer: "<em>",
+      },
+      {
+        question: "Qual é o HTML correto para criar um hiperlink?",
+        options: [
+          '<a href="http://www.w3schools.com">W3Schools</a>',
+          '<a url="http://www.w3schools.com">W3Schools.com</a>',
+          "<a>http://www.w3schools.com</a>",
+          '<a name="http://www.w3schools.com">W3Schools.com</a>',
+        ],
+        answer: '<a href="http://www.w3schools.com">W3Schools</a>',
+      },
+      {
+        question: "Qual caractere é usado para indicar uma tag de fechamento?",
+        options: ["/", "<", "*", "^"],
+        answer: "/",
+      },
+      {
+        question:
+          "Como você pode abrir um link em uma nova aba/janela do navegador?",
+        options: [
+          '<a href="url" target="_blank">',
+          '<a href="url" target="new">',
+          '<a href="url" new>',
+        ],
+        answer: '<a href="url" target="_blank">',
+      },
+      {
+        question: "Quais desses elementos são todos elementos <table>?",
+        options: [
+          "<table><tr><td>",
+          "<table><head><tfoot>",
+          "<thead><body><tr>",
+          "<table><tr><tt>",
+        ],
+        answer: "<table><tr><td>",
+      },
+      {
+        question:
+          "Os elementos Inline normalmente são exibidos sem iniciar uma nova linha.",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
+      },
+      {
+        question: "Como você pode fazer uma lista ordenada por números?",
+        options: ["<ol>", "<ul>", "<dl>", "<list>"],
+        answer: "<ol>",
+      },
+      {
+        question: "Como você pode fazer uma lista com marcadores?",
+        options: ["<ul>", "<list>", "<dl>", "<ol>"],
+        answer: "<ul>",
+      },
+      {
+        question:
+          "Qual é o HTML correto para fazer uma caixa de seleção (checkbox)?",
+        options: [
+          '<input type="checkbox">',
+          "<checkbox>",
+          '<input type="check">',
+          "<check>",
+        ],
+        answer: '<input type="checkbox">',
+      },
+      {
+        question: "Qual é o HTML correto para criar um input de texto?",
+        options: [
+          '<input type="text">',
+          "<textfield>",
+          '<input type="textfield">',
+          '<textinput type="text">',
+        ],
+        answer: '<input type="text">',
+      },
+      {
+        question: "Qual é o HTML correto para criar uma lista suspensa?",
+        options: [
+          "<select>",
+          '<input type="list">',
+          '<input type="dropdown">',
+          "<list>",
+        ],
+        answer: "<select>",
+      },
+      {
+        question: "Qual é o HTML correto para criar uma área de texto?",
+        options: [
+          "<textarea>",
+          '<input type="textbox">',
+          '<input type="textarea">',
+        ],
+        answer: "<textarea>",
+      },
+      {
+        question: "Qual é o HTML correto para inserir uma imagem?",
+        options: [
+          '<img src="image.gif" alt="MyImage">',
+          '<image src="image.gif" alt="MyImage">',
+          '<img href="image.gif" alt="MyImage">',
+          '<img alt="MyImage">image.gif</img>',
+        ],
+        answer: '<img src="image.gif" alt="MyImage">',
+      },
+      {
+        question: "Qual é o HTML correto para inserir uma imagem de fundo?",
+        options: [
+          '<body style="background-image:url(background.gif)">',
+          '<background img="background.gif">',
+          '<body bg="background.gif>',
+        ],
+        answer: '<body style="background-image:url(background.gif)">',
+      },
+      {
+        question:
+          "Um <iframe> é usado para exibir uma página da web dentro de uma página da web.",
+        options: ["Verdadeiro", "Não existe <iframe>", "Falso"],
+        answer: "Verdadeiro",
+      },
+      {
+        question: "Comentários HTML começam com <!-- e terminam com -->",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
+      },
+      {
+        question:
+          "Os elementos block normalmente são exibidos sem iniciar uma nova linha.",
+        options: ["Falso", "Verdadeiro"],
+        answer: "Falso",
+      },
+      {
+        question: "Qual elemento HTML define o título de um documento?",
+        options: ["<title>", "<head>", "<meta>"],
+        answer: "<title>",
+      },
+      {
+        question:
+          "Qual atributo HTML especifica um texto alternativo para uma imagem, se a imagem não puder ser exibida?",
+        options: ["alt", "src", "title", "longdesc"],
+        answer: "alt",
+      },
+      {
+        question: "Qual tipo de documento é correto para HTML5?",
+        options: [
+          "<!DOCTYPE html>",
+          "<!DOCTYPE HTML5>",
+          '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN" "http://www.w3.org/TR/html5/strict.dtd">',
+        ],
+        answer: "<!DOCTYPE html>",
+      },
+      {
+        question:
+          "Qual elemento HTML é usado para especificar um rodapé para um documento ou seção?",
+        options: ["<footer>", "<bottom>", "<section>"],
+        answer: "<footer>",
+      },
+      {
+        question:
+          "Em HTML, você pode incorporar elementos SVG diretamente em uma página HTML.",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
+      },
+      {
+        question:
+          "Qual é o elemento HTML correto para reproduzir arquivos de vídeo?",
+        options: ["<video>", "<media>", "<movie>"],
+        answer: "<video>",
+      },
+      {
+        question:
+          "Qual é o elemento HTML correto para reproduzir arquivos de áudio?",
+        options: ["<sound>", "<mp3>", "<audio>"],
+        answer: "<sound>",
+      },
+      {
+        question: 'O atributo global HTML, "contenteditable" é usado para:',
+        options: [
+          "Especificar um menu de contexto para um elemento. O menu aparece quando um usuário clica com o botão direito no elemento",
+          "Especificar se o conteúdo de um elemento deve ser editável ou não",
+          "Retornar a posição da primeira ocorrência encontrada de conteúdo dentro de uma string",
+          "Atualizar conteúdo do servidor",
+        ],
+        answer:
+          "Especificar um menu de contexto para um elemento. O menu aparece quando um usuário clica com o botão direito no elemento",
+      },
+      {
+        question: "Em HTML, onblur e onfocus são:",
+        options: [
+          "elementos HTML",
+          "Atributos de evento",
+          "Atributos de estilo",
+        ],
+        answer: "Atributos de evento",
+      },
+      {
+        question: "Os gráficos definidos pelo SVG estão em qual formato?",
+        options: ["XML", "HTML", "CSS"],
+        answer: "XML",
+      },
+      {
+        question: "O elemento HTML <canvas> é usado para:",
+        options: [
+          "desenhar gráficos",
+          "exibir registros do banco de dados",
+          "manipular dados no MySQL",
+          "criar elementos arrastáveis",
+        ],
+        answer: "desenhar gráficos",
+      },
+      {
+        question:
+          "Em HTML, qual atributo é usado para especificar que um campo de entrada deve ser preenchido?",
+        options: ["required", "validate", "placeholder", "formvalidate"],
+        answer: "required",
+      },
+      {
+        question: "Qual tipo de entrada define um controle deslizante?",
+        options: ["range", "search", "slider", "controls"],
+        answer: "range",
+      },
+      {
+        question:
+          "Qual elemento HTML é usado para exibir uma medida de escala dentro de um intervalo?",
+        options: ["<range>", "<meter>", "<measure>", "<gauge>"],
+        answer: "<meter>",
+      },
+      {
+        question: "Qual elemento HTML define links de navegação?",
+        options: ["<nav>", "<navigation>", "<navigate>"],
+        answer: "<nav>",
+      },
+      {
+        question: "Em HTML, o que o elemento <aside> define?",
+        options: [
+          "Conteúdo além do conteúdo da página",
+          "O conjunto de caracteres ASCII; para enviar informações entre computadores na Internet",
+          "Uma lista de navegação a ser mostrada no lado esquerdo da página",
+        ],
+        answer: "Conteúdo além do conteúdo da página",
+      },
+      {
+        question:
+          "Qual elemento HTML é usado para especificar um cabeçalho para um documento ou seção?",
+        options: ["<header>", "<section>", "<head>", "<top>"],
+        answer: "<header>",
       },
     ],
   },
@@ -55,6 +343,187 @@ const data = [
         question: "A posição que deixa um elemento fixo é a:",
         options: ["static", "absolute", "fixed", "relative"],
         answer: "fixed",
+      },
+      {
+        question: "O que significa CSS?",
+        options: [
+          "Cascading Style Sheets",
+          "Creative Style Sheets",
+          "Computer Style Sheets",
+          "Colorful Style Sheets",
+        ],
+        answer: "Cascading Style Sheets",
+      },
+      {
+        question:
+          "Qual é o HTML correto para se referir a uma folha de estilo externa?",
+        options: [
+          '<link rel="stylesheet" type="text/css" href="mystyle.css">',
+          '<style src="mystyle.css">',
+          "<stylesheet>mystyle.css</stylesheet>",
+        ],
+        answer: '<link rel="stylesheet" type="text/css" href="mystyle.css">',
+      },
+      {
+        question:
+          "Qual o local correto em um documento HTML para se referir a uma folha de estilos externa?",
+        options: [
+          "Na seção <head>",
+          "No final do documento",
+          "Na seção <body>",
+        ],
+        answer: "Na seção <head>",
+      },
+      {
+        question:
+          "Qual tag HTML é usada para definir uma folha de estilos interna?",
+        options: ["<style>", "<script>", "<css>"],
+        answer: "<style>",
+      },
+      {
+        question: "Qual atributo HTML é usado para definir estilos inline?",
+        options: ["style", "class", "styles", "font"],
+        answer: "style",
+      },
+      {
+        question: "Qual é a sintaxe CSS correta?",
+        options: [
+          "body {color: black;}",
+          "{body:color=black;}",
+          "body:color=black;",
+          "{body;color:black;}",
+        ],
+        answer: "body {color: black;}",
+      },
+      {
+        question: "Como você insere um comentário em um arquivo CSS?",
+        options: [
+          "/* isto é um comentário */",
+          '// "isto é um comentário //',
+          "' isto é um comentário",
+          '// "isto é um comentário"',
+        ],
+        answer: "/* isto é um comentário */",
+      },
+      {
+        question: "Qual propriedade é usada para alterar a cor de fundo?",
+        options: ["background-color", "bgcolor", "color"],
+        answer: "background-color",
+      },
+      {
+        question:
+          "Como você adiciona uma cor de fundo para todos os elementos <h1>?",
+        options: [
+          "h1 {background-color:#FFFFFF;}",
+          "h1.all {background-color:#FFFFFF;}",
+          "all.h1 {background-color:#FFFFFF;}",
+        ],
+        answer: "h1 {background-color:#FFFFFF;}",
+      },
+      {
+        question:
+          "Qual propriedade CSS é usada para alterar a cor do texto de um elemento?",
+        options: ["color", "fgcolor", "text-color"],
+        answer: "color",
+      },
+      {
+        question: "Qual propriedade CSS controla o tamanho do texto?",
+        options: ["font-size", "text-style", "text-size", "font-style"],
+        answer: "font-size",
+      },
+      {
+        question:
+          "Qual é a sintaxe CSS correta para deixar todos os elementos <p> em negrito?",
+        options: [
+          "p {font-weight:bold;}",
+          "p {text-size:bold;}",
+          '<p style="text-size:bold;">',
+          '<p style="font-size:bold;">',
+        ],
+        answer: "p {font-weight:bold;}",
+      },
+      {
+        question: "Como você exibe hiperlinks sem sublinhado?",
+        options: [
+          "a {text-decoration:none;}",
+          "a {decoration:no-underline;}",
+          "a {underline:none;}",
+          "a {text-decoration:no-underline;}",
+        ],
+        answer: "a {text-decoration:none;}",
+      },
+      {
+        question:
+          "Como fazer com que cada palavra de um texto comece com letra maiúscula?",
+        options: [
+          "Você não pode fazer isso com CSS",
+          "text-transform:capitalize",
+          "transform:capitalize",
+          "text-style:capitalize",
+        ],
+        answer: "text-transform:capitalize",
+      },
+      {
+        question:
+          "Qual propriedade é usada para alterar a fonte de um elemento?",
+        options: ["font-family", "font-weight", "font-style"],
+        answer: "font-family",
+      },
+      {
+        question: "Como você deixa o texto em negrito?",
+        options: ["font-weight:bold;", "font:bold;", "style:bold;"],
+        answer: "font-weight:bold;",
+      },
+      {
+        question:
+          "Qual propriedade é usada para alterar a margem esquerda de um elemento?",
+        options: ["margin-left", "indent", "padding-left"],
+        answer: "margin-left",
+      },
+      {
+        question:
+          "Ao usar a propriedade padding; você tem permissão para usar valores negativos?",
+        options: ["Não", "Sim"],
+        answer: "Não",
+      },
+      {
+        question: "Como você faz uma lista com marcadores quadrados?",
+        options: [
+          "list-type: square;",
+          "list-style-type: square;",
+          "list: square;",
+        ],
+        answer: "list-style-type: square;",
+      },
+      {
+        question: "Como você seleciona um elemento com id 'demo'?",
+        options: ["#demo", ".demo", "*demo", "demo"],
+        answer: "#demo",
+      },
+      {
+        question: "Como você seleciona elementos com nome de classe ‘test’?",
+        options: [".test", "test", "#test", "*test"],
+        answer: ".test",
+      },
+      {
+        question:
+          "Como você seleciona todos os elementos p dentro de um elemento div?",
+        options: ["div p", "div.p", "div + p"],
+        answer: "div p",
+      },
+      {
+        question: "Como você agrupa seletores?",
+        options: [
+          "Separando cada seletor com uma vírgula",
+          "Separando cada seletor com um espaço",
+          "Separando cada seletor com um sinal de mais",
+        ],
+        answer: "Separando cada seletor com uma vírgula",
+      },
+      {
+        question: "Qual é o valor padrão da propriedade position?",
+        options: ["static", "absolute", "relative", "fixed"],
+        answer: "static",
       },
     ],
   },
@@ -246,8 +715,8 @@ const data = [
       },
       {
         question: "Qual será o retorno do seguinte código: Boolean(10 > 9)",
-        options: ["true", "false", "NaN"],
-        answer: "true",
+        options: ["Verdadeiro", "Falso", "NaN"],
+        answer: "Verdadeiro",
       },
       {
         question: "JavaScript é case-sensitive?",
@@ -290,426 +759,3 @@ const data = [
 ];
 
 export default data;
-
-// Question 1:
-// What does CSS stand for?
-// Cascading Style Sheets    Your answer
-// Creative Style Sheets
-// Computer Style Sheets
-// Colorful Style Sheets
-// Question 2:
-// What is the correct HTML for referring to an external style sheet?
-
-// <link rel="stylesheet" type="text/css" href="mystyle.css">    Your answer
-// <style src="mystyle.css">
-// <stylesheet>mystyle.css</stylesheet>
-// Question 3:
-// Where in an HTML document is the correct place to refer to an external style sheet?
-
-// In the <head> section    Your answer
-// At the end of the document
-// In the <body> section
-// Question 4:
-// Which HTML tag is used to define an internal style sheet?
-
-// <style>    Your answer
-// <script>
-// <css>
-// Question 5:
-// Which HTML attribute is used to define inline styles?
-
-// style    Your answer
-// class
-// styles
-// font
-// Question 6:
-// Which is the correct CSS syntax?
-
-// body {color: black;}    Your answer
-// {body:color=black;}
-// body:color=black;
-// {body;color:black;}
-// Question 7:
-// How do you insert a comment in a CSS file?
-
-// /* this is a comment */    Your answer
-// // this is a comment //
-// ' this is a comment
-// // this is a comment
-// Question 8:
-// Which property is used to change the background color?
-
-// background-color    Your answer
-// bgcolor
-// color
-// Question 9:
-// How do you add a background color for all <h1> elements?
-
-// h1 {background-color:#FFFFFF;}    Your answer
-// h1.all {background-color:#FFFFFF;}
-// all.h1 {background-color:#FFFFFF;}
-// Question 10:
-// Which CSS property is used to change the text color of an element?
-
-// color    Your answer
-// fgcolor
-// text-color
-// Question 11:
-// Which CSS property controls the text size?
-
-// font-size    Your answer
-// text-style
-// text-size
-// font-style
-// Question 12:
-// What is the correct CSS syntax for making all the <p> elements bold?
-
-// p {font-weight:bold;}    Your answer
-// p {text-size:bold;}
-// <p style="text-size:bold;">
-// <p style="font-size:bold;">
-// Question 13:
-// How do you display hyperlinks without an underline?
-
-// a {text-decoration:none;}    Your answer
-// a {decoration:no-underline;}
-// a {underline:none;}
-// a {text-decoration:no-underline;}
-// Question 14:
-// How do you make each word in a text start with a capital letter?
-
-// You can't do that with CSS    Your answer
-// text-transform:capitalize    Correct answer
-// transform:capitalize
-// text-style:capitalize
-// Question 15:
-// Which property is used to change the font of an element?
-
-// font-family    Your answer
-// font-weight
-// font-style
-// Question 16:
-// How do you make the text bold?
-
-// font-weight:bold;    Your answer
-// font:bold;
-// style:bold;
-// Question 17:
-// How do you display a border like this:
-
-// The top border = 10 pixels
-// The bottom border = 5 pixels
-// The left border = 20 pixels
-// The right border = 1pixel?
-
-// border-width:10px 20px 5px 1px;    Your answer
-// border-width:10px 1px 5px 20px;    Correct answer
-// border-width:5px 20px 10px 1px;
-// border-width:10px 5px 20px 1px;
-// Question 18:
-// Which property is used to change the left margin of an element?
-
-// margin-left    Your answer
-// indent
-// padding-left
-// Question 19:
-// When using the padding property; are you allowed to use negative values?
-
-// No    Your answer
-// Yes
-// Question 20:
-// How do you make a list that lists its items with squares?
-
-// list-type: square;    Your answer
-// list-style-type: square;    Correct answer
-// list: square;
-// Question 21:
-// How do you select an element with id 'demo'?
-
-// #demo    Your answer
-// .demo
-// *demo
-// demo
-// Question 22:
-// How do you select elements with class name 'test'?
-
-// .test    Your answer
-// test
-// #test
-// *test
-// Question 23:
-// How do you select all p elements inside a div element?
-
-// div p    Your answer
-// div.p
-// div + p
-// Question 24:
-// How do you group selectors?
-
-// Separate each selector with a comma    Your answer
-// Separate each selector with a space
-// Separate each selector with a plus sign
-// Question 25:
-// What is the default value of the position property?
-
-// static    Your answer
-// absolute
-// relative
-// fixed
-
-// ------------------------------ HTML ------------------------------
-// Question 1:
-// What does HTML stand for?
-
-// Hyper Text Markup Language    Your answer
-// Home Tool Markup Language
-// Hyperlinks and Text Markup Language
-// Question 2:
-// Who is making the Web standards?
-
-// The World Wide Web Consortium    Your answer
-// Mozilla
-// Microsoft
-// Google
-// Question 3:
-// Choose the correct HTML element for the largest heading:
-
-// <head>    Your answer
-// <heading>
-// <h6>
-// <h1>    Correct answer
-// Question 4:
-// What is the correct HTML element for inserting a line break?
-
-// <br>    Your answer
-// <lb>
-// <break>
-// Question 5:
-// What is the correct HTML for adding a background color?
-
-// <body style="background-color:yellow;">    Your answer
-// <background>yellow</background>
-// <body bg="yellow">
-// Question 6:
-// Choose the correct HTML element to define important text
-
-// <strong>    Your answer
-// <important>
-// <i>
-// <b>
-// Question 7:
-// Choose the correct HTML element to define emphasized text
-
-// <em>    Your answer
-// <i>
-// <italic>
-// Question 8:
-// What is the correct HTML for creating a hyperlink?
-
-// <a href="http://www.w3schools.com">W3Schools</a>    Your answer
-// <a url="http://www.w3schools.com">W3Schools.com</a>
-// <a>http://www.w3schools.com</a>
-// <a name="http://www.w3schools.com">W3Schools.com</a>
-// Question 9:
-// Which character is used to indicate an end tag?
-
-// /    Your answer
-// <
-// *
-// ^
-// Question 10:
-// How can you open a link in a new tab/browser window?
-
-// <a href="url" target="_blank">    Your answer
-// <a href="url" target="new">
-// <a href="url" new>
-// Question 11:
-// Which of these elements are all <table> elements?
-
-// <table><tr><td>    Your answer
-// <table><head><tfoot>
-// <thead><body><tr>
-// <table><tr><tt>
-// Question 12:
-// Inline elements are normally displayed without starting a new line.
-
-// True    Your answer
-// False
-// Question 13:
-// How can you make a numbered list?
-
-// <ol>    Your answer
-// <ul>
-// <dl>
-// <list>
-// Question 14:
-// How can you make a bulleted list?
-
-// <ul>    Your answer
-// <list>
-// <dl>
-// <ol>
-// Question 15:
-// What is the correct HTML for making a checkbox?
-
-// <input type="checkbox">    Your answer
-// <checkbox>
-// <input type="check">
-// <check>
-// Question 16:
-// What is the correct HTML for making a text input field?
-
-// <input type="text">    Your answer
-// <textfield>
-// <input type="textfield">
-// <textinput type="text">
-// Question 17:
-// What is the correct HTML for making a drop-down list?
-
-// <select>    Your answer
-// <input type="list">
-// <input type="dropdown">
-// <list>
-// Question 18:
-// What is the correct HTML for making a text area?
-
-// <textarea>    Your answer
-// <input type="textbox">
-// <input type="textarea">
-// Question 19:
-// What is the correct HTML for inserting an image?
-
-// <img src="image.gif" alt="MyImage">    Your answer
-// <image src="image.gif" alt="MyImage">
-// <img href="image.gif" alt="MyImage">
-// <img alt="MyImage">image.gif</img>
-// Question 20:
-// What is the correct HTML for inserting a background image?
-
-// <body style="background-image:url(background.gif)">    Your answer
-// <background img="background.gif">
-// <body bg="background.gif">
-// Question 21:
-// An <iframe> is used to display a web page within a web page.
-
-// True    Your answer
-// There is no such thing as an <iframe>
-// False
-// Question 22:
-// HTML comments start with <!-- and end with -->
-
-// True    Your answer
-// False
-// Question 23:
-// Block elements are normally displayed without starting a new line.
-
-// False    Your answer
-// True
-// Question 24:
-// Which HTML element defines the title of a document?
-
-// <title>    Your answer
-// <head>
-// <meta>
-// Question 25:
-// Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?
-
-// alt    Your answer
-// src
-// title
-// longdesc
-// Question 26:
-// Which doctype is correct for HTML5?
-
-// <!DOCTYPE html>    Your answer
-// <!DOCTYPE HTML5>
-// <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN" "http://www.w3.org/TR/html5/strict.dtd">
-// Question 27:
-// Which HTML element is used to specify a footer for a document or section?
-
-// <footer>    Your answer
-// <bottom>
-// <section>
-// Question 28:
-// In HTML, you can embed SVG elements directly into an HTML page.
-
-// True    Your answer
-// False
-// Question 29:
-// What is the correct HTML element for playing video files?
-
-// <video>    Your answer
-// <media>
-// <movie>
-// Question 30:
-// What is the correct HTML element for playing audio files?
-
-// <sound>    Your answer
-// <mp3>
-// <audio>    Correct answer
-// Question 31:
-// The HTML global attribute, "contenteditable" is used to:
-
-// Specifies a context menu for an element. The menu appears when a user right-clicks on the element    Your answer
-// Specify whether the content of an element should be editable or not    Correct answer
-// Return the position of the first found occurrence of content inside a string
-// Update content from the server
-// Question 32:
-// In HTML, onblur and onfocus are:
-
-// HTML elements    Your answer
-// Event attributes    Correct answer
-// Style attributes
-// Question 33:
-// Graphics defined by SVG is in which format?
-
-// XML    Your answer
-// HTML
-// CSS
-// Question 34:
-// The HTML <canvas> element is used to:
-
-// draw graphics    Your answer
-// display database records
-// manipulate data in MySQL
-// create draggable elements
-// Question 35:
-// In HTML, which attribute is used to specify that an input field must be filled out?
-
-// required    Your answer
-// validate
-// placeholder
-// formvalidate
-// Question 36:
-// Which input type defines a slider control?
-
-// range    Your answer
-// search
-// slider
-// controls
-// Question 37:
-// Which HTML element is used to display a scalar measurement within a range?
-
-// <range>    Your answer
-// <meter>    Correct answer
-// <measure>
-// <gauge>
-// Question 38:
-// Which HTML element defines navigation links?
-
-// <nav>    Your answer
-// <navigation>
-// <navigate>
-// Question 39:
-// In HTML, what does the <aside> element define?
-
-// Content aside from the page content    Your answer
-// The ASCII character-set; to send information between computers on the Internet
-// A navigation list to be shown at the left side of the page
-// Question 40:
-// Which HTML element is used to specify a header for a document or section?
-
-// <header>    Your answer
-// <section>
-// <head>
-// <top>
